@@ -1,6 +1,5 @@
 #Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
-#Considere US$1,00 = R$3,27
-
+#Considere US$1,00 = R$5,43
 Real = float(input('Qual o valor? '))
-Dolar = Real * 3.27
-print('Você poderá comprar U${} doláres'.format(Dolar))
+Dolar = Real / 5.43
+print('Você poderá comprar U${:.2f} doláres'.format(Dolar))
