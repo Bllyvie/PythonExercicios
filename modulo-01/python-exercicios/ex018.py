@@ -1,0 +1,1 @@
+#Faça um programa que leia um ângulo qualquer o valor do seno, cosseno e tangente desse ângulo.
